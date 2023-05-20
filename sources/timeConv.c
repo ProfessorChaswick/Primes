@@ -12,7 +12,6 @@ int* convTime(double dTimePassed)
     iRetVal[1] = iTimeTaken % 3600;
     iRetVal[2] = iRetVal[1] / 60; /*Get minutes*/
     iRetVal[3] = iRetVal[1] % 60; /*Get seconds*/
-    /* printf("\n\tThat took %d hours %d minutes and %d seconds\n\n", iHours, iMinutes, iSeconds); */ 
 	
 	return iRetVal;    
 }
