@@ -23,7 +23,6 @@ int main(void)
 		nums[iNum] = iNum; /* Populate the array */
 
     nums[1] = 0; /*eliminate #1*/
-	/* nums[2] = 0; */
 	int iChk;
     iCount = 0;
 	for(int iZed = 2; iZed <= iMax; iZed ++)
